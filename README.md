@@ -2,7 +2,7 @@
 
 
 ```
-module "project" {
+module "vpc1" {
     source = "dalerboboev/vpc1/aws
     region        = "eu-west-2"
     cidr_block    = "10.0.0.0/16"
