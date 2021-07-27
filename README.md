@@ -3,7 +3,7 @@
 
 ```
 module "app_name" {
-    source = "dalerboboev/vpc-project-for-team3/aws
+    source = "dalerboboev/vpc1/aws
     region        = "eu-west-2"
     cidr_block    = "10.0.0.0/16"
     public_cidr1  = "10.0.101.0/24"
