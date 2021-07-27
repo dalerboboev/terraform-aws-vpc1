@@ -13,7 +13,7 @@ module "app_name" {
     private_cidr2 = "10.0.2.0/24"
     private_cidr3 = "10.0.3.0/24"
     tags = {
-      Team = 2
+      Team = "2"
     }
 
 ```
