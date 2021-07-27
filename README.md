@@ -15,5 +15,6 @@ module "app_name" {
     tags = {
       Team = "2"
     }
+}
 
 ```
