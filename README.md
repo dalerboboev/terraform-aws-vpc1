@@ -1,5 +1,11 @@
 # Please copy paste code below
-
+############# Project #############
+Amazon Virtual Private Cloud (Amazon VPC) is a service that lets you launch AWS resources in a logically isolated virtual network that you define. You have complete control over your virtual networking environment, including selection of your own IP address range, creation of subnets, and configuration of route tables and network gateways.
+By the running below module "vpc1" you will be able build VPC with following configurations:
+* 6 subnets: 3 private, 3 public.
+* Pulic subnet will attache to the IGW (Internet Gate Way).
+* Private subnets will attache to the NAT Gate Way.
+* All data present in format based in interpolation architecture (soft coded).
 
 ```
 module "vpc1" {
@@ -18,3 +24,5 @@ module "vpc1" {
 }
 
 ```
+
+
